@@ -9,7 +9,7 @@
 <p id="demo"></p>
 
 <script>
-var obj = { name: "John", age: function () {return 30;}, city: "New York" };
+var obj = { name: "John", age: function () {return 30;}, city: "New York", designation:"Software Engineer" };
 obj.age = obj.age.toString();
 var myJSON = JSON.stringify(obj);
 document.getElementById("demo").innerHTML = myJSON;
